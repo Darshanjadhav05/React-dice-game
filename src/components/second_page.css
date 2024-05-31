@@ -1,0 +1,52 @@
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 44px;
+  margin-right: 56px;
+}
+
+.btn button {
+  height: 40px;
+  margin: 8px;
+  padding: 5px;
+  width: 40px;
+  border: 1px solid black;
+}
+
+
+.score h1 {
+  font-size: 70px;
+}
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.main1 img {
+    height: 146px
+}
+.main1 button {
+  width: 15vw;
+  height: 7vh;
+  border: 1px solid black;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.rules {
+  background: black;
+  color: white;
+}
+.reset{
+    background: transparent;
+}
+.selected {
+    background-color: black;
+    color: white;
+}
